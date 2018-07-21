@@ -3,7 +3,7 @@
 		<td style="text-align:left;">
 			<?php 
 			
-			$thissec = mktime();
+			$thissec = time();
 			
 			$thismoment = $thissec + (60 * 60 * 3);
 			
