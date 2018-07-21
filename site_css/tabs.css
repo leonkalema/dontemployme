@@ -1,0 +1,23 @@
+/* Specific to example one */
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+#example-one { background:#FFF; padding: 0px; margin: 0px; }
+
+#example-one .nav { overflow: hidden; text-align:left; margin:0px; padding-left:0px;}
+#example-one .nav li { width: 185px; float: left; margin: 0 10px 0 0; }
+#example-one .nav li.last { margin-right: 0; }
+#example-one .nav li a { display: block; padding: 5px; background: #000; color: white; font-size: 12px; text-align: center; border: 0; }
+#example-one .nav li a:hover { background-color: #111; }
+
+#example-one ul { list-style: none; padding-left:0px; }
+#example-one ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; }
+#example-one ul li a:hover { background: #fe4902; color: white; }
+#example-one ul li:last-child a { border: none; }
+
+#example-one ul li.nav-one a.current, #example-one ul.personal li a:hover { background-color: #CAA200; color: #000; }
+#example-one ul li.nav-two a.current, #example-one ul.family li a:hover { background-color: #CAA200; color: #000; }
+#example-one ul li.nav-three a.current, #example-one ul.residence li a:hover { background-color: #CAA200; color: #000; }
+#example-one ul li.nav-four a.current, #example-one ul.academics li a:hover { background-color: #CAA200; color: #000; }
+#example-one ul li.nav-four a.current, #example-one ul.hr li a:hover { background-color: #CAA200; color: #000; }

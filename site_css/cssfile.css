@@ -1,0 +1,149 @@
+/* www.dontemployme.com - CSS Document */
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+}
+
+input, select, textarea
+{ 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	padding: 7px; 
+	border: 1px solid #999;
+}
+
+.nostyle
+{
+	border:0px;
+	padding:0px;
+}
+/* #FFCC0A */
+.activemenu
+{
+	color:#FFF;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.inactivemenu
+{
+	font-family:Arial;
+	color:#FFCC0A;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.logintext
+{
+	background-color:#FFCC0A;
+	color:#000;
+}
+
+.links
+{
+	color:#CAA200;
+}
+
+#links
+{
+	color:#CAA200;
+}
+
+.signout
+{
+	color:#990000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.toplinks
+{
+	text-decoration:none;
+	color:#990000;
+	font-weight:bold;
+}
+
+.tdmain
+{
+	padding:5px;
+	font-weight:normal;
+	background-color:#000;
+	color:#999;
+}
+
+.tdother
+{
+	padding:5px;	
+	vertical-align:top;
+}
+
+.tddata2
+{
+	padding:5px;	
+	border-top:solid #414042 1px;
+	vertical-align:top;
+}
+
+.evenrow
+{
+	background-color:#CCC;
+}
+
+.oddrow
+{
+	background-color:#FFFFFF;
+}
+
+.whitelinks
+{
+	color:#FFF;
+}
+
+.settingspanel
+{
+	background-color:#000;
+	text-align:center;
+}
+
+.blacklinks
+{
+	color:#000;
+	font-weight:bold;
+}
+
+.righttd
+{
+	text-align:right;
+}
+
+.menuselected
+{
+	padding:10px;
+	cursor:pointer;
+	background-color:#990000;
+	color:#CCCCCC;
+}
+
+.menunotselected
+{
+	padding:10px;
+	cursor:pointer;
+	background-color:#000000;
+	color:#CCCCCC;
+}
+
+/* Pagination */
+#page_navigation a{
+	padding:3px;
+	border:1px solid gray;
+	margin:2px;
+	color:black;
+	text-decoration:none
+}
+.active_page{
+	background:#000;
+	color:white !important;
+}
