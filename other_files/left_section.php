@@ -928,7 +928,7 @@
 	}
 	elseif($thispage[3] == "wanted_persons.php")
 	{
-		$timecheck = mktime();
+		$timecheck = time();
 		
 		if($_GET['i'])
 		{
